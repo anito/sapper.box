@@ -63,7 +63,7 @@ module.exports = {
 				}
 			]
 		},
-		mode: process.env.NODE_ENV,
+		mode: mode,
 		performance: {
 			hints: false // it doesn't matter if server.js is large
 		}
